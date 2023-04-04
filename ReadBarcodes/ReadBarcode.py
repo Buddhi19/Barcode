@@ -18,11 +18,11 @@ def BarcodeReader(img):
              
             if barcode.data!="":
                
-                print(barcode.data)
-                print(barcode.type)
+                print("Saved Data- ",barcode.data)
+                print("Bar Code Type- ",barcode.type)
                  
     cv2.imshow("Image", img)
-    cv2.waitKey(1000)
+    cv2.waitKey(0)
     # cv2.destroyAllWindows()
     return True
  
